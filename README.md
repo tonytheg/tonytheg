@@ -146,6 +146,6 @@ Intelligent game-playing agents for Pacman using adversarial search algorithms �
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=100&section=footer" width="100%"/>
+<sub>Open to software engineering opportunities · Let’s build something useful.</sub>
 
 </div>
