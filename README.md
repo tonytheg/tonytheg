@@ -1,21 +1,20 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Tony%20Lo&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20|%20CS%20Graduate%20|%20Auburn%20University&descSize=18&descAlignY=55&descAlign=50" width="100%"/>
+<img src="./assets/terminal-hero.svg" width="100%" alt="Tony Lo, full-stack developer — web systems, AI agents, and interactive games" />
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=115&lines=Building+full-stack+web+applications;Passionate+about+AI+%26+game+development;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" /></a>
+<a href="https://github.com/tonytheg?tab=repositories"><img src="https://img.shields.io/badge/explore%20the%20work-0f172a?style=for-the-badge&logo=github&logoColor=67e8f9" alt="Explore Tony's GitHub repositories" /></a>
+<a href="mailto:tonyloyat@gmail.com"><img src="https://img.shields.io/badge/contact-22c55e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Tony" /></a>
 
 </div>
 
-## 👋 About Me
+## 👋 About
 
-I'm **Tony Lo** — a Computer Science graduate from **Auburn University** who loves building things that work and look great. From full-stack web apps to browser games to AI agents, I enjoy tackling problems across the stack.
+I'm **Tony Lo**, a Computer Science graduate from **Auburn University**. I build polished, end-to-end software: responsive interfaces, dependable data-backed services, test automation, and interactive AI-driven experiences.
 
 - 🎓 **B.S. Computer Science** — Auburn University (Class of 2026)
-- 🌐 **Full-Stack Developer** — React, Node.js, Firebase, PHP, MySQL
-- 🤖 **AI/ML Enthusiast** — Built intelligent game agents and ML classifiers
-- 🎮 **Game Developer** — Unity3D & HTML5 Canvas
+- 🌐 **Product engineering** — React, Node.js, Firebase, PHP, MySQL
+- 🤖 **Applied AI** — intelligent game agents and graph-based ML classifiers
+- 🎮 **Interactive development** — Unity3D and HTML5 Canvas
 - 🌍 **Trilingual** — English · Mandarin · Cantonese
 
 <br/>
