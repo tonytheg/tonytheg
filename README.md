@@ -69,7 +69,7 @@ I'm **Tony Lo**, a Computer Science graduate from **Auburn University**. I build
 ### 🐟 [Fish Life Adventure](https://github.com/tonytheg/fish-life-adventure)
 **HTML5 Canvas · JavaScript**
 
-A pixel-art ocean survival game built entirely in vanilla JavaScript. Eat smaller fish to grow, avoid predators, and evolve through multiple life stages.
+An educational aquarium ecosystem game for elementary and middle school students. Guide a fish through clean water, collect oxygen bubbles near plants, and avoid pollution and floating trash while managing its health.
 
 🎮 [**Play it live →**](https://tonytheg.github.io/fish-life-adventure/)
 
