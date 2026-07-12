@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Tony Lo — Full-stack developer</title>
+  <desc id="desc">An animated developer console introducing Tony Lo, a full-stack developer who builds web, AI, and interactive experiences.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0c1930"/>
+      <stop offset="1" stop-color="#11102b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#14213d" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0a1325" stop-opacity="0.76"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7dd3fc" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="reveal-left"><rect x="72" y="105" width="0" height="238"><animate attributeName="width" values="0;540;540" keyTimes="0;0.58;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="reveal-right"><rect x="672" y="105" width="0" height="238"><animate attributeName="width" values="0;432;432" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+  <path d="M0 363 C185 310 286 412 505 351 S902 301 1200 367 V420 H0Z" fill="#312e81" fill-opacity="0.18"/>
+  <path d="M0 380 C211 341 359 418 595 357 S986 338 1200 386" fill="none" stroke="url(#accent)" stroke-opacity="0.34" stroke-width="1.5"/>
+
+  <g opacity="0.82" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#b8c9e6">
+    <circle cx="76" cy="62" r="5" fill="#fb7185"/><circle cx="94" cy="62" r="5" fill="#fbbf24"/><circle cx="112" cy="62" r="5" fill="#34d399"/>
+    <text x="142" y="67" letter-spacing="1.4">TONY.LO / PORTFOLIO</text>
+    <text x="1027" y="67" fill="#67e8f9">● ONLINE</text>
+    <circle cx="1016" cy="62" r="5" fill="#34d399" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <path d="M72 82H1128" stroke="#7dd3fc" stroke-opacity="0.18"/>
+  </g>
+
+  <g clip-path="url(#reveal-left)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="76" y="137" fill="#67e8f9" font-size="18">$ whoami</text>
+    <text x="76" y="199" fill="#f8fafc" font-size="53" font-weight="700" letter-spacing="-2">Tony Lo</text>
+    <rect x="278" y="159" width="12" height="48" rx="2" fill="#67e8f9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    <text x="78" y="235" fill="#c4b5fd" font-size="18" letter-spacing="1.2">FULL-STACK DEVELOPER</text>
+    <text x="76" y="276" fill="#9fb1cf" font-size="15">Designing dependable software, from interface to data.</text>
+    <g font-size="14" fill="#b8c9e6">
+      <text x="76" y="317" fill="#67e8f9">01</text><text x="112" y="317">web systems</text>
+      <text x="270" y="317" fill="#a5b4fc">·</text><text x="288" y="317">AI agents</text>
+      <text x="421" y="317" fill="#e9d5ff">·</text><text x="440" y="317">interactive games</text>
+    </g>
+  </g>
+
+  <g clip-path="url(#reveal-right)">
+    <rect x="674" y="106" width="452" height="238" rx="12" fill="url(#panel)" stroke="#7dd3fc" stroke-opacity="0.2"/>
+    <path d="M674 148H1126" stroke="#7dd3fc" stroke-opacity="0.16"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      <text x="700" y="133" fill="#7dd3fc" letter-spacing="1.3">ENGINEERING_SNAPSHOT</text>
+      <text x="700" y="183" fill="#64748b">const</text><text x="748" y="183" fill="#e2e8f0"> focus </text><text x="802" y="183" fill="#c4b5fd">=</text><text x="818" y="183" fill="#e2e8f0"> [</text>
+      <text x="726" y="211" fill="#67e8f9">&quot;product UX&quot;,</text>
+      <text x="726" y="237" fill="#a5b4fc">&quot;automation&quot;,</text>
+      <text x="726" y="263" fill="#e9d5ff">&quot;intelligent systems&quot;</text>
+      <text x="700" y="289" fill="#e2e8f0">];</text>
+      <text x="700" y="321" fill="#34d399">✓</text><text x="726" y="321" fill="#cbd5e1"> build → test → ship</text>
+    </g>
+    <rect x="674" y="106" width="452" height="2" fill="url(#accent)"/>
+  </g>
+
+  <rect x="-180" y="84" width="160" height="260" fill="#67e8f9" fill-opacity="0.05" transform="skewX(-18)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;1450 0" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#7dd3fc" stroke-opacity="0.18"/>
+</svg>
