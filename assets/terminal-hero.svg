@@ -23,8 +23,6 @@
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="reveal-left"><rect x="72" y="105" width="0" height="238"><animate attributeName="width" values="0;540;540" keyTimes="0;0.58;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="reveal-right"><rect x="672" y="105" width="0" height="238"><animate attributeName="width" values="0;432;432" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <rect width="1200" height="420" rx="18" fill="url(#background)"/>
@@ -40,7 +38,7 @@
     <path d="M72 82H1128" stroke="#7dd3fc" stroke-opacity="0.18"/>
   </g>
 
-  <g clip-path="url(#reveal-left)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
     <text x="76" y="137" fill="#67e8f9" font-size="18">$ whoami</text>
     <text x="76" y="199" fill="#f8fafc" font-size="53" font-weight="700" letter-spacing="-2">Tony Lo</text>
     <rect x="278" y="159" width="12" height="48" rx="2" fill="#67e8f9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
@@ -53,7 +51,7 @@
     </g>
   </g>
 
-  <g clip-path="url(#reveal-right)">
+  <g>
     <rect x="674" y="106" width="452" height="238" rx="12" fill="url(#panel)" stroke="#7dd3fc" stroke-opacity="0.2"/>
     <path d="M674 148H1126" stroke="#7dd3fc" stroke-opacity="0.16"/>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
