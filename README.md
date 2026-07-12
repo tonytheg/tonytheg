@@ -120,12 +120,6 @@ Intelligent game-playing agents for Pacman using adversarial search algorithms â
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=tonytheg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0D1117"/>
-&nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tonytheg&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117&langs_count=8"/>
-
-<br/><br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=tonytheg&theme=tokyonight&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=667eea" />
 
 </div>
